@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>type writter</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+	<header class="bg-secondary text-center p-3 mb-5">
+		<h1>WordBeater</h1>
+	</header>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<p class="lead">Type the given word within <span class="text-success " id="seconds"> </span> seconds.</p>
+				<h2 class="display-2 mb-5" id="current-word">hello</h2>
+				<input type="text" class="form-control form-control-lg" placeholder="start typing..." id="input-word" autofocus name="">
+				<h4 class="mt-3" id="message"></h4>
+
+				<div class="row mt-5">
+					<div class="col-md-6">
+						<h3>Time Left: <span id="time">0</span></h3>
+					</div>
+					<div class="col-md-6">
+						<h3>Score: <span id="score">0</span></h3>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-12">
+						<div class="card card-body bg-secondary text-white">
+							<h5>Instructions.</h5>
+							<p><b>Type each word in the given amount of seconds to score.
+							To play again, type the current word your score will reset.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-6 mx-auto">
+						
+						<h4 class="mt-3" id="wd" id="notify">something</h4>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
